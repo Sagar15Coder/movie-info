@@ -12,7 +12,7 @@ const App = () => {
       <Prov>
         <BrowserRouter>
               <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/movie-info" element={<Home />} />
                 <Route path="/movie/:id" element={<MoviePage />} />
                 <Route path="*" element={<Error />} />
               </Routes>
