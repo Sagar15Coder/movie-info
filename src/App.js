@@ -12,7 +12,7 @@ const App = () => {
       <Prov>
         <HashRouter>
               <Routes>
-                <Route path="/movie-info" element={<Home />} />
+                <Route path="/" element={<Home />} />
                 <Route path="/movie/:id" element={<MoviePage />} />
                 <Route path="*" element={<Error />} />
               </Routes>
