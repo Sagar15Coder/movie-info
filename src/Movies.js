@@ -6,13 +6,13 @@ const Movies = () => {
     const { movies, isLoading, isError} = useGlobalContext();
     console.log(movies)
     
-    if (isLoading) {
+    /*if (isLoading) {
         return (
             <div>
                 Loading.....
             </div>
         )
-    }
+    }*/
 
     if (isError.show) {
         return (
